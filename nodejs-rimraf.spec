@@ -5,13 +5,13 @@
 %define		pkg	rimraf
 Summary:	A deep deletion module for node.js
 Name:		nodejs-%{pkg}
-Version:	2.0.2
+Version:	2.1.4
 Release:	1
 License:	MIT
 Group:		Development/Libraries
 URL:		https://github.com/isaacs/%{pkg}
 Source0:	http://registry.npmjs.org/%{pkg}/-/%{pkg}-%{version}.tgz
-# Source0-md5:	629d8bb90976553382fbee10f7907368
+# Source0-md5:	97636a23879afde51d6a5132e8ff89f9
 BuildRequires:	bash
 BuildRequires:	nodejs
 BuildRequires:	rpmbuild(macros) >= 1.634
