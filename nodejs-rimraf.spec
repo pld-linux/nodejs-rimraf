@@ -9,9 +9,9 @@ Version:	2.2.6
 Release:	1
 License:	MIT
 Group:		Development/Libraries
-URL:		https://github.com/isaacs/%{pkg}
 Source0:	http://registry.npmjs.org/%{pkg}/-/%{pkg}-%{version}.tgz
 # Source0-md5:	12ca912d238e071737d1ffec98556e86
+URL:		https://github.com/isaacs/rimraf
 %if %{with tests}
 BuildRequires:	bash
 BuildRequires:	nodejs
