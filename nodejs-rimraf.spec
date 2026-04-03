@@ -6,7 +6,7 @@
 Summary:	A deep deletion module for node.js
 Name:		nodejs-%{pkg}
 Version:	2.2.8
-Release:	1
+Release:	2
 License:	MIT
 Group:		Development/Libraries
 Source0:	http://registry.npmjs.org/%{pkg}/-/%{pkg}-%{version}.tgz
